@@ -41,6 +41,8 @@
 
 ### Credits:
 
+* [Rusty Shackleford](https://github.com/pepsi) for helping create this project.
+
 * [MCP-Reborn](https://github.com/Hexeption/MCP-Reborn) for a working MCP ([Hexeption](https://github.com/Hexeption), [kingdevnl](https://github.com/kingdevnl))
 
 * [Optifine-SRC](https://github.com/Hexeption/Optifine-SRC) for optifine source code ([Hexeption](https://github.com/Hexeption))
