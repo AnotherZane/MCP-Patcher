@@ -11,6 +11,11 @@ case "$1" in
         scripts/generate.sh $2 || exit 1
     )
     ;;
+   "p" | "patch")
+    (
+        scripts/patch.sh $2 || exit 1
+    )
+    ;;
     *)
     (
         echo "MCP-Patcher CLI Tool"
