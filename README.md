@@ -1,6 +1,6 @@
 # MCP-Patcher
 
- A simple patch creation tool for MCP which  lets you distrubute your changes to the client in the form of patch files.
+ A simple patch creation tool for MCP which  lets you distribute your changes to the client in the form of patch files.
 
 #### Note: It is recommened that you use wsl if you are on windows.
 
