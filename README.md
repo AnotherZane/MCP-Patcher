@@ -14,21 +14,15 @@
 
 - Make ``mcp-patcher`` file executable with command: ``chmod +x mcp-patcher``.
 
-- Run the setup with command: ``./mcp-patcher setup`` (Right click and run with git bash on Windows, and type setup when prompted).
+- Run the setup with command: ``./mcp-patcher setup``.
 
-- Import the build.gradle in Intellij.
-
-- Run the gradle task 'setup' in the mcp folder.
+- You can now open the ``Client/`` folder in IDE of choice to make changes.
 
 ### Patcher Usage:
 
 - Once you have mcp setup, run ``./mcp-patcher patch`` to apply all previous patches.
 
-- After making changes, run ``./mcp-patcher rebuild`` to rebuild patches with differences.
-
-### How to build:
-
-- Run the gradle task 'build', then the release jar will be in the "build/libs/".
+- After making changes, run ``./mcp-patcher generate`` to generate patches with differences.
 
 ### Credits:
 
@@ -36,6 +30,6 @@
 
 * [Optifine-SRC](https://github.com/Hexeption/Optifine-SRC) for optifine source code ([Hexeption](https://github.com/Hexeption))
 
-* [Paper](https://github.com/PaperMC/Paper) for parts of patch scripts ([PaperMC Team](https://github.com/PaperMC))
+* [Paper](https://github.com/PaperMC/Paper) for parts of some scripts ([PaperMC Team](https://github.com/PaperMC))
 
 * [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge) for MCPConfig, ForgeGradle ([MinecraftForge Team](https://github.com/MinecraftForge))
