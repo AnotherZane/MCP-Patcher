@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 case "$1" in
-    "setup")
+    "s", "setup")
     (
         scripts/setup.sh $2 || exit 1
     )
     ;;
-    "g" | "generate")
+    "g" | "generate" | "gen")
     (
         scripts/generate.sh $2 || exit 1
     )
@@ -19,8 +19,8 @@ case "$1" in
         echo "You can find a list of commands below."
         echo ""
         echo " Commands:"
-        echo "  * setup             | Setup MCP-Reborn."
-        echo "  * g, generate       | Generate all patches."
+        echo "  * s, setup          | Setup MCP-Reborn."
+        echo "  * g, generate, gen  | Generate all patches."
         echo "  * p, patch          | Apply all patches to the project."
     )
     ;;
