@@ -6,7 +6,7 @@ case "$1" in
         scripts/setup.sh $2 || exit 1
     )
     ;;
-    "g" | "generate" | "gen")
+    "g" | "gen" | "generate")
     (
         scripts/generate.sh $2 || exit 1
     )
@@ -25,7 +25,7 @@ case "$1" in
         echo ""
         echo " Commands:"
         echo "  * s, setup          | Setup MCP-Reborn."
-        echo "  * g, generate, gen  | Generate all patches."
+        echo "  * g, gen, generate  | Generate all patches."
         echo "  * p, patch          | Apply all patches to the project."
     )
     ;;

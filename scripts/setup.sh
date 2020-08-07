@@ -64,6 +64,15 @@ else
     git add .
     git commit -m "Minecraft Source"
 
+    echo "Creating new git branch 'mc'... (Do not delete or modify code in this branch)"
+    git branch mc
+
+    
+    echo "Applying patches..."
+    git apply ../Patches/*
+
+    echo "Patches applied!"
+
     echo ""
     echo "Done!"
 fi

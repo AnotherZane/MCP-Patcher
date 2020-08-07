@@ -1,6 +1,14 @@
-cp Patches Client/ -r
-cd Client
-git apply Patches/*
-cd ..
-echo "Patching done."
+#!/usr/bin/env bash
 
+if [[ -d Client/ ]]
+then
+    cd Client/
+
+    echo "Applying patches..."
+    git apply ../Patches/*
+
+    echo "Patching done."
+
+else
+    echo "Client folder (Client/) does not exist! Exiting..."
+fi
