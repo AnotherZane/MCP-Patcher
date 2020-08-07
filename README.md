@@ -14,6 +14,8 @@
 
 - Make ``mcp-patcher`` file executable with command: ``chmod +x mcp-patcher``.
 
+- Make ``scripts/*`` executable with command: ``chmod +x scripts/*``.
+
 - Run the setup with command: ``./mcp-patcher setup``.
 
 - You can now open the ``Client/`` folder in IDE of choice to make changes.
