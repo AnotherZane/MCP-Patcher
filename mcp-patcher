@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 case "$1" in
-    "s", "setup")
+    "s" | "setup")
     (
         scripts/setup.sh $2 || exit 1
     )
