@@ -2,10 +2,14 @@
 
 case "$1" in
     "setup")
+    (
         scripts/setup.sh $2 || exit 1
+    )
     ;;
-    "g", "generate")
+    "g" | "generate")
+    (
         scripts/generate.sh $2 || exit 1
+    )
     ;;
     *)
     (
