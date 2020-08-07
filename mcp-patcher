@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+case "$1" in
+    "setup")
+        scripts/setup.sh $2 || exit 1
+    ;;
+    "g", "generate")
+        scripts/generate.sh $2 || exit 1
+    ;;
+    *)
+    (
+        echo "MCP-Patcher CLI Tool"
+        echo ""
+        echo "A variety of commands to assist you in managing patches."
+        echo "You can find a list of commands below."
+        echo ""
+        echo " Commands:"
+        echo "  * setup             | Setup MCP-Reborn."
+        echo "  * g, generate       | Generate all patches."
+        echo "  * p, patch          | Apply all patches to the project."
+    )
+    ;;
+esac
