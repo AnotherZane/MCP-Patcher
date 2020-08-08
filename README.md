@@ -1,6 +1,7 @@
 # MCP-Patcher
 
- A simple patch creation tool for MCP which  lets you distrubute your changes to the client in the form of patch files.
+ A simple patch creation tool for MCP which  lets you distribute your changes to the client in the form of patch files.
+ These scripts currently setup MCP 1.16.1.
 
 #### Note: It is recommened that you use wsl if you are on windows.
 
@@ -40,6 +41,8 @@
 - You will now find that the new patches have been applied to your Client source code.
 
 ### Credits:
+
+* [Rusty Shackleford](https://github.com/pepsi) for helping create this project.
 
 * [MCP-Reborn](https://github.com/Hexeption/MCP-Reborn) for a working MCP ([Hexeption](https://github.com/Hexeption), [kingdevnl](https://github.com/kingdevnl))
 
