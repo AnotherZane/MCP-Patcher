@@ -3,7 +3,8 @@
 if [[ -d Client/ ]]
 then
     echo "Clearing old patches..."
-    rm -f Patches/* 
+    rm -rf Patches/ 
+    mkdir Patches
 
     cd Client/
 
