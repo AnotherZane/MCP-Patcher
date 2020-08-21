@@ -1,7 +1,7 @@
 # MCP-Patcher
 
  A simple patch creation tool for MCP which  lets you distribute your changes to the client in the form of patch files.
- These scripts currently setup MCP 1.16.1.
+ These scripts currently setup MCP 1.16.2.
 
 #### Note: It is recommened that you use wsl if you are on windows.
 
