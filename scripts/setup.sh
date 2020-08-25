@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-OPTF_URL="https://github.com/AnotherZane/Optifine-SRC/raw/master/Optifine%20SRC%20Version%20%5B1.16.2%20HD%20U%20G3%20pre2%5D.rar"
+OPTF_URL="https://github.com/AnotherZane/Optifine-SRC/raw/master/Optifine%20SRC%20Version%20%5B1.16.2%20HD%20U%20G3%20pre3%5D.rar"
 GITIGNORE_URL="https://gist.githubusercontent.com/AnotherZane/66e804e79b8a4d2e885c0a82ff53c682/raw/a08334633e08fa0b9d6717a153acbfce7b40f948/MCP-Reborn%2520.gitignore"
 
 if [[ -d Client/ ]]
